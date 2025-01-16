@@ -1,10 +1,12 @@
+import Counter from "./components/Counter"
 import Head from "./components/Head"
 
 function App() {
 
   return (
    <>
-    <Head />
+    {/* <Head /> */}
+    <Counter/>
    </>
   )
 }
