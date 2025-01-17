@@ -1,4 +1,4 @@
-function Card(){
+function Card() {
 
   return (
     <>
@@ -6,7 +6,7 @@ function Card(){
         <div >
           <img src="https://images.pexels.com/photos/28688782/pexels-photo-28688782/free-photo-of-venetian-balcony-with-red-flowers-in-venice.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" />
         </div>
-        <div>content</div>
+        <div className="text-xl">content</div>
       </div>
     </>
   )

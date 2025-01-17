@@ -22,7 +22,7 @@ function Counter(){
        <div>
         <h1>Implementing Counter {counter}</h1>
         <h2>Counter: {counter}</h2>
-        <button onClick={addValue}>Add Value</button>
+        <button className="bg-yellow-300" onClick={addValue}>Add Value</button>
         <button onClick={removeValue}>Remove Value</button>
        </div>
     </>
